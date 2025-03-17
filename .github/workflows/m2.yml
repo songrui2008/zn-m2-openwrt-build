@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: zn-m2 build
+name: m2 build
 
 on:
   repository_dispatch:
