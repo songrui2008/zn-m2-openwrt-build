@@ -13,6 +13,9 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 
+# Modify Hostname
+sed -i "s/hostname='OpenWrt'/hostname='iStoreOS'/g" package/base-files/files/bin/config_generate
+
 #修改版本信息
 sed -i "s/DISTRIB_DESCRIPTION='*'/DISTRIB_DESCRIPTION='SnowR'/g"  package/base-files/files/etc/openwrt_release
 
